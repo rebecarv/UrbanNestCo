@@ -112,3 +112,63 @@ ul {
     left: 10%;
     top: 100%;
 }
+
+/* search */
+.search-bar{
+    width: 100%;
+    height: 40vh;
+    background-color: #ffffffbb; 
+    background-filter: blur(30px);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    display: none;
+    justify-content: center;
+    z-index: 101;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+}
+
+.search-input {
+    width: 90%;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.search-input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    margin: 0px;
+    color: #000000;
+}
+
+.search-cancel {
+    color: #041020;
+    font-size: 1.5rem;
+    padding-right: 40px;
+}
+
+.search-bar-active {
+    display: flex;
+}
+
+.nav-search {
+    font-size: 1.4rem;
+}
+
+/* Login Signup */
+
+.form {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.04);
+}
