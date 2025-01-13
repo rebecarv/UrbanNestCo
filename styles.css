@@ -267,3 +267,10 @@ ul {
 .form {
     display: none;
 }
+
+.login-active, 
+.login-active .login-form,
+.sign-up-active,
+.sign-up-active .sign-up-form {
+    display: flex;
+}

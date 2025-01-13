@@ -73,13 +73,12 @@
                 <input type="password" placeholder="Password" name="password" required/>
                 <input type="submit" value="Log In"/>
             </form>
-            <!--inputs-->
+            <!--forget-signup-->
             <div class="form-btns">
                 <a href="#" class="forget">Forgot Your Password?</a>
                 <a href="#" class="sign-up-btn">Create Account</a>
             </div>
         </div>
-    </div>
 
     <!--sign up-->
     <div class="sign-up-form">
@@ -100,24 +99,9 @@
             <a href="#" class="already-account">Already Have Account?</a>
         </div>
     </div>
+</div>
 
-    
-
-    <script>
-
-        document.addEventListener('DOMContentLoaded', function(){
-            //==for=search=====================//
-            document.addEventListener('click', function(event){
-                if(event.target.closest('.nav-search')){
-                    document.querySelector('.search-bar').classList.add('search-bar-active');
-                }
-                else if(event.target.closest('.search-cancel')){
-                    document.querySelector('.search-bar').classList.remove('search-bar-active');
-                }
-            });
-        });
-
-    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>
