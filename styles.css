@@ -274,3 +274,56 @@ ul {
 .sign-up-active .sign-up-form {
     display: flex;
 }
+
+/* main */
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #f5f9ff;
+}
+
+#main img {
+    width: 60%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.main-text {
+    max-width: 500px;
+}
+
+.main-text span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #30487c;
+}
+
+.main-text h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4.8rem;
+}
+
+.main-text p {
+    color: #474747;
+    margin: 10px auto;
+    font-weight: 300;
+}
+
+.main-text a {
+    color: #ffffff;
+    background-color: #041020;
+    width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
