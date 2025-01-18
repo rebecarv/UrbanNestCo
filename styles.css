@@ -377,14 +377,16 @@ ul {
 
 /* popular */
 #popular,
-#recent-products {
+#recent-products,
+#sofa-products{
     max-width: 1200px;
     width: 90%;
     margin: 50px auto;
 }
 
 #popular h2,
-#recent-products h2{
+#recent-products h2,
+#sofa-products h3{
     font-size: 1.6rem;
     color: #1d1d1d;
     font-weight: 600;
@@ -609,10 +611,36 @@ ul {
 }
 
 /* recent */
-
 .recent-product-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 40px;
     margin-top: 20px;
+}
+
+/* partner */
+#partner {
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    grid-gap: 15px;
+}
+
+#partner img {
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: all ease 0.3s;
+}
+
+#partner img:hover {
+    filter: grayscale(0);
+    opacity: 1;
 }
