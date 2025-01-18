@@ -376,13 +376,15 @@ ul {
 }
 
 /* popular */
-#popular {
+#popular,
+#recent-products {
     max-width: 1200px;
     width: 90%;
     margin: 50px auto;
 }
 
-#popular h2 {
+#popular h2,
+#recent-products h2{
     font-size: 1.6rem;
     color: #1d1d1d;
     font-weight: 600;
@@ -493,5 +495,124 @@ ul {
 }
 
 .popular-banner {
-    
+    background-color: #f5f9ff;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.popular-banner-img {
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    max-height: 600px;
+}
+
+.popular-banner-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.popular-banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-banner-text h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+.popular-banner-text a {
+    font-weight: 500;
+    color: #041020;
+    margin-top: 10px;
+}
+
+
+/* shopping-banner */
+
+#shopping-banner {
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+    background-color: #f5f9ff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.shopping-banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 990px;
+    margin: auto;
+}
+
+.shopping-banner-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.shopping-banner-img {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.shopping-banner-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center ;
+}
+.shopping-banner-text h3 {
+    color: #181818;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.shopping-banner-text p {
+    color: #3f3f3f;
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.shopping-banner-text strong {
+    color: #041020;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 500;
+}
+
+.shopping-banner-text a {
+    color: #ffffff;
+    background-color: #181818;
+    max-width: 160px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* recent */
+
+.recent-product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 20px;
 }
