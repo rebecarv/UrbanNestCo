@@ -14,6 +14,7 @@ ul {
 }
 
 /* header */
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -112,6 +113,33 @@ ul {
     left: 10%;
     top: 100%;
 }
+
+header.header-fix {
+    background-color: #ffffffd5;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 101;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+    animation: nav_animation 0.6s;
+}
+
+header.header-fix .navigation {
+    padding: 20px 0px;
+}
+
+@keyframes nav_animation {
+    0%{
+        top: -100%;
+    }
+    100%{
+        top: 0%;
+    }
+}
+
+
 
 /* search */
 .search-bar{
