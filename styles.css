@@ -149,7 +149,7 @@ header.header-fix .navigation {
     width: 100%;
     height: 40vh;
     background-color: #ffffffbb; 
-    background-filter: blur(30px);
+    backdrop-filter: blur(30px);
     position: fixed;
     left: 0px;
     bottom: 0px;
