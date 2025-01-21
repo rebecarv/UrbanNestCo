@@ -685,3 +685,130 @@ ul {
     margin: 0px;
     font-size: 0.9rem;
 }
+
+/* footer */
+footer {
+    width: 100%;
+}
+.footer-container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-company-box 
+.footer-subscribe {
+    max-width: 300px;
+}
+
+.footer-company-box .footer-logo {
+    color: #333333;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #0a0a0a;
+    text-transform: uppercase;
+}
+
+.footer-company-box p,
+.footer-subscribe p{
+    color: #585858;
+    margin: 5px 0px;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-social a {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #e9e9e9;
+    color: #333333;
+    font-size: 0.9rem;
+    transition: all ease 0.3s;
+}
+
+.footer-social a:hover {
+    background-color: #041020;
+    fill: #ffffff;
+    border: none;
+}
+
+.footer-link-box strong,
+.footer-subscribe strong{
+    color: #3b3b3b;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer-link-box ul {
+    margin-top: 5px;
+}
+
+.footer-link-box ul li a{
+    color: #585858;
+}
+
+.footer-link-box ul li a:hover {
+    color: #041020;
+}
+
+.subscribe-box {
+    width: 100%;
+    border: 1px solid #dadada;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.subscribe-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0px 15px;
+}
+
+.subscribe-box button {
+    border: none;
+    outline: none;
+    background-color: #041020;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    height: 40px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    border-top: 1px solid #e9e9e9;
+    padding: 20px 0px;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.footer-bottom span {
+    color: #252525;
+    font-size: 0.9rem;
+}
