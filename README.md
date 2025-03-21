@@ -1,6 +1,5 @@
 # UrbanNestCo
-Welcome to **UrbanNestCo**, a website dedicated to showcasing the best designer furniture. 
-Our platform highlights exquisite pieces crafted by talented designers, combining style, functionality, and modern aesthetics.
+UrbanNestCo is a modern furniture store showcasing exclusive, designer-crafted pieces that blend elegance, comfort, and timeless style — where design meets functionality.
 
 ## Features
 
